@@ -1,0 +1,10 @@
+#If you want "Hello, World!" to be limited to the first five letters, you can do:
+
+# str = "Hello, World!"
+# str[0...5] # => "Hello"
+# If you want an ellipses, just interpolate it:
+
+# "#{str[0...5]}..." #=> "Hello..."
+
+
+#interpolate tweet to truncate the tweet => "text here is displayed up till set number..."
